@@ -1,0 +1,709 @@
+[
+  {
+    "id": 101,
+    "name": "JavaScript",
+    "author": "John Heikela",
+    "duration": 48,
+    "type": "Free",
+    "price": 0.0,
+    "ratings": 3.5,
+    "image": "assets/images/Javascript.jpeg",
+    "description": "In this course you will learn the fundamentals of JavaScript. This course is purely designed",
+    "lessons":{
+      "day_2":{
+        "sections":[
+   
+
+          {
+            "title": "Learn Introductory JavaScript by Building a Pyramid Generator",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-introductory-javascript-by-building-a-pyramid-generator' style='color: white; text-decoration: none;'>Learn Introductory JavaScript by Building a Pyramid Generator</a>"
+          },
+          {
+            "title": "Learn Basic JavaScript by Building a Role Playing Game",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-javascript-by-building-a-role-playing-game' style='color: white; text-decoration: none;'>Learn Basic JavaScript by Building a Role Playing Game</a>"
+          },
+          {
+            "title": "Learn Form Validation by Building a Calorie Counter",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-form-validation-by-building-a-calorie-counter' style='color: white; text-decoration: none;'>Learn Form Validation by Building a Calorie Counter</a>"
+          },
+          {
+            "title": "Learn Basic String and Array Methods by Building a Music Player",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-string-and-array-methods-by-building-a-music-player' style='color: white; text-decoration: none;'>Learn Basic String and Array Methods by Building a Music Player</a>"
+          },
+          {
+            "title": "Learn the Date Object by Building a Date Formatter",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-the-date-object-by-building-a-date-formatter' style='color: white; text-decoration: none;'>Learn the Date Object by Building a Date Formatter</a>"
+          },
+          {
+            "title": "Learn Modern JavaScript Methods By Building Football Team Cards",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-modern-javascript-methods-by-building-football-team-cards' style='color: white; text-decoration: none;'>Learn Modern JavaScript Methods By Building Football Team Cards</a>"
+          },
+          {
+            "title": "Learn localStorage by Building a Todo App",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-localstorage-by-building-a-todo-app' style='color: white; text-decoration: none;'>Learn localStorage by Building a Todo App</a>"
+          },
+          {
+            "title": "Learn Recursion by Building a Decimal to Binary Converter",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-recursion-by-building-a-decimal-to-binary-converter' style='color: white; text-decoration: none;'>Learn Recursion by Building a Decimal to Binary Converter</a>"
+          },
+          {
+            "title": "Learn Basic Algorithmic Thinking by Building a Number Sorter",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-algorithmic-thinking-by-building-a-number-sorter' style='color: white; text-decoration: none;'>Learn Basic Algorithmic Thinking by Building a Number Sorter</a>"
+          },
+          {
+            "title": "Learn Advanced Array Methods by Building a Statistics Calculator",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-advanced-array-methods-by-building-a-statistics-calculator' style='color: white; text-decoration: none;'>Learn Advanced Array Methods by Building a Statistics Calculator</a>"
+          },
+          {
+            "title": "Learn Functional Programming by Building a Spreadsheet",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-functional-programming-by-building-a-spreadsheet' style='color: white; text-decoration: none;'>Learn Functional Programming by Building a Spreadsheet</a>"
+          },
+          {
+            "title": "Learn Regular Expressions by Building a Spam Filter",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-regular-expressions-by-building-a-spam-filter' style='color: white; text-decoration: none;'>Learn Regular Expressions by Building a Spam Filter</a>"
+          },
+          {
+            "title": "Learn Basic OOP by Building a Shopping Cart",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-basic-oop-by-building-a-shopping-cart' style='color: white; text-decoration: none;'>Learn Basic OOP by Building a Shopping Cart</a>"
+          },
+          {
+            "title": "Learn Intermediate OOP by Building a Platformer Game",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-intermediate-oop-by-building-a-platformer-game' style='color: white; text-decoration: none;'>Learn Intermediate OOP by Building a Platformer Game</a>"
+          },
+          {
+            "title": "Learn Intermediate Algorithmic Thinking by Building a Dice Game",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#review-algorithmic-thinking-by-building-a-dice-game' style='color: white; text-decoration: none;'>Learn Intermediate Algorithmic Thinking by Building a Dice Game</a>"
+          },
+          {
+            "title": "Learn Fetch and Promises By Building an fCC Authors Page",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-fetch-and-promises-by-building-an-fcc-authors-page' style='color: white; text-decoration: none;'>Learn Fetch and Promises By Building an fCC Authors Page</a>"
+          },
+          {
+            "title": "Learn Asynchronous Programming by Building an fCC Forum Leaderboard",
+            "content": "<a href='https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/#learn-asynchronous-programming-by-building-an-fcc-forum-leaderboard' style='color: white; text-decoration: none;'>Learn Asynchronous Programming by Building an fCC Forum Leaderboard</a>"
+          },
+          
+            {
+              "title": "David Neal: JavaScript: Past, Present and Future",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/c0oy0vQKEZE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Rich Harris: Rethinking reactivity",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/AdNJ3fydeao' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Mathias Bynens & Sathya Gunasekaran: What's new in JavaScript?" ,
+              "content": "<iframe width='560' height='315'   src='https://www.youtube.com/embed/c0oy0vQKEZE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Maxim Koretskyi: JSConf EU: A sneak peek into super optimized code in JS frameworks",
+              "content": "<iframe width='560' height='315'  src='https://www.youtube.com/embed/_VHNTC67NR8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Una Kravets: CSS Houdini & The Future of Styling",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/GhRE3rML9t4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Jake Archibald: In The Loop",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/cCOL7MC4Pl0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Malte Ubl: Designing very large JavaScript application",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ZZmUwXEiPm4' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Ryan Dahl: 10 Things I Regret About Node.js",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/M3BM9TB-8yA' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Mathias Bynens & Benedikt Meurer: JavaScript Engines: The Good Parts™",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/5nmpokoRaZI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Ronen Amiel: Build your own webpack",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Gc9-7PBqOC8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Addy Osmani: The Cost Of JavaScript",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/63I-mEuSvGA' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Erin Zimmer: Further Adventures of the Event Loop",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/u1kqx6AenYw' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Laurie Voss: npm and the Future of JavaScript",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Qa4dxW-Qi2s' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Lin Clark: A Cartoon Intro to Fiber",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ZCuYPiUIONs' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Yoav Weiss: Caches All the Way Down!",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/WFI-Yi9Fb7Y' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            },
+            {
+              "title": "Franziska Hinkelmann: JavaScript engines - how do they even?",
+              "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/p-iiEDtpy6I' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+            }
+            
+          
+          
+
+        ]
+      }
+    }
+  },
+  {
+    "id": 107,
+    "name": "PHP ",
+    "author": "Mark Vought",
+    "duration": 68,
+    "type": "Premium",
+    "price": 129.0,
+    "ratings": 3.5,
+    "image": "/assets/images/OIP.jpeg",
+    "description": "For begginers starting out on PHP"
+  },
+  {
+    "id": 103,
+    "name": "React",
+    "author": "Steve Smith",
+    "duration": 18.5,
+    "type": "Free",
+    "price": 0.0,
+    "ratings": 4.0,
+    "image": "assets/images/React.jpeg",
+    "description": "In this course you will learn the fundamentals of React. This course is purely designed",
+    "lessons":{
+      "day_2":{
+        "sections":[
+          {
+            "title": "Create Serverless React.js Apps",
+            "content": "<a href='http://serverless-stack.com/' style='color: white; text-decoration: none;'>Create Serverless React.js Apps</a>"
+          },
+          {
+            "title": "Create a Trello Clone",
+            "content": "<a href='http://codeloveandboards.com/blog/2016/01/04/trello-tribute-with-phoenix-and-react-pt-1/' style='color: white; text-decoration: none;'>Create a Trello Clone</a>"
+          },
+          {
+            "title": "Create a Character Voting App with React, Node, MongoDB and SocketIO",
+            "content": "<a href='http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio' style='color: white; text-decoration: none;'>Create a Character Voting App with React, Node, MongoDB and SocketIO</a>"
+          },
+          {
+            "title": "React Tutorial: Cloning Yelp",
+            "content": "<a href='https://www.fullstackreact.com/articles/react-tutorial-cloning-yelp/' style='color: white; text-decoration: none;'>React Tutorial: Cloning Yelp</a>"
+          },
+          {
+            "title": "Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable",
+            "content": "<a href='https://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html' style='color: white; text-decoration: none;'>Build a Full Stack Movie Voting App with Test-First Development using Mocha, React, Redux and Immutable</a>"
+          },
+          {
+            "title": "Build a Twitter Stream with React and Node",
+            "content": "<a href='https://scotch.io/tutorials/build-a-real-time-twitter-stream-with-node-and-react-js' style='color: white; text-decoration: none;'>Build a Twitter Stream with React and Node</a>"
+          },
+          {
+            "title": "Build A Simple Medium Clone using React.js and Node.js",
+            "content": "<a href='https://medium.com/@kris101/clone-medium-on-node-js-and-react-js-731cdfbb6878' style='color: white; text-decoration: none;'>Build A Simple Medium Clone using React.js and Node.js</a>"
+          },
+          {
+            "title": "Integrate MailChimp in JS",
+            "content": "<a href='https://medium.freecodecamp.org/how-to-integrate-mailchimp-in-a-javascript-web-app-2a889fb43f6f' style='color: white; text-decoration: none;'>Integrate MailChimp in JS</a>"
+          },
+          {
+            "title": "Build A Chrome Extension with React + Parcel",
+            "content": "<a href='https://medium.freecodecamp.org/building-chrome-extensions-in-react-parcel-79d0240dd58f' style='color: white; text-decoration: none;'>Build A Chrome Extension with React + Parcel</a>"
+          },
+          {
+            "title": "Build A ToDo App With React Native",
+            "content": "<a href='https://blog.hasura.io/tutorial-fullstack-react-native-with-graphql-and-authentication-18183d13373a' style='color: white; text-decoration: none;'>Build A ToDo App With React Native</a>"
+          },
+          {
+            "title": "Make a Chat Application",
+            "content": "<a href='https://medium.freecodecamp.org/how-to-build-a-chat-application-using-react-redux-redux-saga-and-web-sockets-47423e4bc21a' style='color: white; text-decoration: none;'>Make a Chat Application</a>"
+          },
+          {
+            "title": "Create a News App with React Native",
+            "content": "<a href='https://medium.freecodecamp.org/create-a-news-app-using-react-native-ced249263627' style='color: white; text-decoration: none;'>Create a News App with React Native</a>"
+          },
+          {
+            "title": "Learn Webpack For React",
+            "content": "<a href='https://medium.freecodecamp.org/learn-webpack-for-react-a36d4cac5060' style='color: white; text-decoration: none;'>Learn Webpack For React</a>"
+          },
+          {
+            "title": "Testing React App With Puppeteer and Jest",
+            "content": "<a href='https://blog.bitsrc.io/testing-your-react-app-with-puppeteer-and-jest-c72b3dfcde59' style='color: white; text-decoration: none;'>Testing React App With Puppeteer and Jest</a>"
+          },
+          {
+            "title": "Build Your Own React Boilerplate",
+            "content": "<a href='https://medium.freecodecamp.org/how-to-build-your-own-react-boilerplate-2f8cbbeb9b3f' style='color: white; text-decoration: none;'>Build Your Own React Boilerplate</a>"
+          },
+          {
+            "title": "Code The Game Of Life With React",
+            "content": "<a href='https://medium.freecodecamp.org/create-gameoflife-with-react-in-one-hour-8e686a410174' style='color: white; text-decoration: none;'>Code The Game Of Life With React</a>"
+          },
+          {
+            "title": "A Basic React+Redux Introductory Tutorial",
+            "content": "<a href='https://hackernoon.com/a-basic-react-redux-introductory-tutorial-adcc681eeb5e' style='color: white; text-decoration: none;'>A Basic React+Redux Introductory Tutorial</a>"
+          },
+          {
+            "title": "Build an Appointment Scheduler",
+            "content": "<a href='https://hackernoon.com/build-an-appointment-scheduler-using-react-twilio-and-cosmic-js-95377f6d1040' style='color: white; text-decoration: none;'>Build an Appointment Scheduler</a>"
+          },
+          {
+            "title": "Build A Chat App with Sentiment Analysis",
+            "content": "<a href='https://codeburst.io/build-a-chat-app-with-sentiment-analysis-using-next-js-c43ebf3ea643' style='color: white; text-decoration: none;'>Build A Chat App with Sentiment Analysis</a>"
+          },
+          {
+            "title": "Build A Full Stack Web Application Setup",
+            "content": "<a href='https://hackernoon.com/full-stack-web-application-using-react-node-js-express-and-webpack-97dbd5b9d708' style='color: white; text-decoration: none;'>Build A Full Stack Web Application Setup</a>"
+          },
+          {
+            "title": "Create Todoist clone with React and Firebase",
+            "content": "<iframe src='https://www.youtube.com/embed/hT3j87FMR6M' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 1",
+            "content": "<iframe src='https://www.youtube.com/embed/3QngsWA9IEE' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 2",
+            "content": "<iframe src='https://www.youtube.com/embed/XnoTmO06OYo' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 3",
+            "content": "<iframe src='https://www.youtube.com/embed/us51Jne67_I' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 4",
+            "content": "<iframe src='https://www.youtube.com/embed/iZx7hqHb5MU' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 5",
+            "content": "<iframe src='https://www.youtube.com/embed/lpba9vBqXl0' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 6",
+            "content": "<iframe src='https://www.youtube.com/embed/Jvp8j6zrFHE' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Build A Random Quote Machine - Part 7",
+            "content": "<iframe src='https://www.youtube.com/embed/M_hFfrN8_PQ' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "React Phone E-Commerce Project (video)",
+            "content": "<iframe src='https://www.youtube.com/embed/-edmQKcOW8s' width='560' height='315' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+        ]
+        
+          }
+  
+        }           
+      
+},
+  {
+    "id": 104,
+    "name": "Java",
+    "author": "Steve Smith",
+    "duration": 19.5,
+    "type": "Premium",
+    "price": 145.5,
+    "ratings": 4.8,
+    "image": "/assets/istockphoto-1431876307-170667a.webp",
+    "description": "In this course you will learn all the concepts of Java from basic to advance. This course is purely designed begginers who are just staring out with the JJava programing languge"
+  },
+  {
+    "id": 105,
+    "name": "Data Structures",
+    "author": "John Heikela",
+    "duration": 60,
+    "type": "Premium",
+    "price": 150.0,
+    "ratings": 4.5,
+    "image": "assets/images/Data structures.jpg",
+    "description": "In this course you will learn the complete modern data structures step by step.This course is purely designed",
+    "lessons": {
+      "day_2": {
+        "sections": [
+          {
+            "title": "Time Complexity",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/mV3wrLBbuuE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Time Complexity Analysis",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/a3tJY7QWSCA' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Introduction to Big O Notation and Time Complexity",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/D6xkbGLQesk' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "The Ultimate Big O Notation Tutorial",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/waPQP2TDOGE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Time Complexity and Big O Notation (with notes)",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/vgSKOMsjLbc' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          
+
+          {
+            "title": "Dynamic Programming: Fibonacci Sequence",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/e0CAbRVYAWg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Dynamic Programming Algorithms: The Fibonacci Sequence",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/vYhaNVpaq-k' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Dynamic Programming Fibonacci Series | Recursion vs Memoization vs Tabulation",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Lct6dTkmTLk' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Solving Fibonacci with Dynamic Programming: The Easy Way",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/OgLxu4a3QhE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Dynamic Programming and Memoization",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/P8Xa2BitN3I' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "MIT 6.006 Dynamic Programming I: Fibonacci, Shortest Paths",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/OQ5jsbhAv_M' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "MIT 6.006 Dynamic Programming II: Text Justification, Blackjack",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ENyox7kNKeY' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Dynamic Programming - All Pairs Shortest Path",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/tduk_MCOGwE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          ,
+          {
+            "title": "Dijkstra's Shortest Path Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/GazC3A4OQTE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Bellman-Ford Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/obWXjtg0L64' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "MIT 6.006 Dijkstra's Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2E7MmKv0Y24' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Graph Data Structures: Part 1",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/gXgEDyodOJU' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Graph Data Structures: Part 2",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/EaK7s8JPFDI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Breadth First Search Algorithm | Graph Theory",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/QkfW8SCUS1k' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          ,
+          {
+            "title": "Graphs: Depth-First Search (DFS)",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9RHO6jU--GU' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Topological Sort",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ddTC4Zovtbc' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Disjoint Set Data Structure",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/ID00PMy0-vE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Kruskal's Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/71UQH7Pr9kU' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Prim's Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/cplfcGZmX7I' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Binary Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/oSWTXtMglKE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Binary Search Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9Jry5-82I68' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Self-Balancing Binary Search Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/jDM6_TnYIqE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "AVL Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/jDM6_TnYIqE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Red-Black Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/5IBxA-bZZH8' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "B-Trees",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/s3bCdZGrgpA' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Trie Data Structure",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/zIjfhVPRZCg' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Bubble Sort Algorithm | Data Structures Tutorials",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/o4bAoo_gFBU' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Insertion Sort Algorithm by Jenny",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9oWd4VJOwr0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          {
+            "title": "Merge Sort in Data Structure | Sorting Algorithms",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/jlHkDBEumP0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          ,
+          {
+            "title": "Quick Sort in Data Structure | Sorting Algorithm",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/QN9hnmAgmOc' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          ,
+          {
+            "title": "Selection Sort",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/9oWd4VJOwr0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          
+          ,
+          {
+            "title": "Counting Sort Algorithm by Jenny",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/pEJiGC-ObQE' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          
+          
+          
+          ,
+          
+          {
+            "title": "Heap Sort Algorithm by Jenny",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/2DmK_H7IdTo' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          
+          {
+            "title": "Radix Sort Algorithm by Jenny",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Il45xNUHGp0' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          },
+          
+          {
+            "title": "Bucket Sort Algorithm by Jenny",
+            "content": "<iframe width='560' height='315' src='https://www.youtube.com/embed/JMlYkE8hGJM' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+          }
+          
+          
+          
+          
+          
+
+        ]
+      }
+    }
+  },
+  {
+    "id": 106,
+    "name": "C++",
+    "author": "Mark Vought",
+    "duration": 68,
+    "type": "Premium",
+    "price": 129.0,
+    "ratings": 4.5,
+    "image": "/assets/images/retina_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png",
+    "description": "In this course you will learn the fundamentals of C++ with .NET Core.This course is purely designed for begginers who are staring their journey with compputer programmming",
+    "lessons":{
+      "day_2":{
+        "sections":[
+          {
+            "title": "Introduction",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/01.Introduction.html' style='color: white;'>Introduction</a> ([PDF](01.Introduction.pdf) | [Download PDF](01.Introduction.pdf))"
+          },
+          {
+            "title": "Preparation",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/02.Preparation.html' style='color: white;'>Preparation</a> ([PDF](02.Preparation.pdf) | [Download PDF](02.Preparation.pdf))"
+          },
+          {
+            "title": "Basic Concepts I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/03.Basic_Concepts_I.html' style='color: white;'>Basic Concepts I</a> ([PDF](03.Basic_Concepts_I.pdf) | [Download PDF](03.Basic_Concepts_I.pdf))"
+          },
+          {
+            "title": "Basic Concepts II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/04.Basic_Concepts_II.html' style='color: white;'>Basic Concepts II</a> ([PDF](04.Basic_Concepts_II.pdf) | [Download PDF](04.Basic_Concepts_II.pdf))"
+          },
+          {
+            "title": "Basic Concepts III",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/05.Basic_Concepts_III.html' style='color: white;'>Basic Concepts III</a> ([PDF](05.Basic_Concepts_III.pdf) | [Download PDF](05.Basic_Concepts_III.pdf))"
+          },
+          {
+            "title": "Basic Concepts IV",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/06.Basic_Concepts_IV.html' style='color: white;'>Basic Concepts IV</a> ([PDF](06.Basic_Concepts_IV.pdf) | [Download PDF](06.Basic_Concepts_IV.pdf))"
+          },
+          {
+            "title": "Basic Concepts V",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/07.Basic_Concepts_V.html' style='color: white;'>Basic Concepts V</a> ([PDF](07.Basic_Concepts_V.pdf) | [Download PDF](07.Basic_Concepts_V.pdf))"
+          },
+          {
+            "title": "Object-Oriented Programming I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/08.Object_Oriented_I.html' style='color: white;'>Object-Oriented Programming I</a> ([PDF](08.Object_Oriented_I.pdf) | [Download PDF](08.Object_Oriented_I.pdf))"
+          },
+          {
+            "title": "Object Oriented Programming II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/09.Object_Oriented_II.html' style='color: white;'>Object Oriented Programming II</a> ([PDF](09.Object_Oriented_II.pdf) | [Download PDF](09.Object_Oriented_II.pdf))"
+          },
+          {
+            "title": "Templates and Meta-programming I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/10.Templates_I.html' style='color: white;'>Templates and Meta-programming I</a> ([PDF](10.Templates_I.pdf) | [Download PDF](10.Templates_I.pdf))"
+          },
+          {
+            "title": "Templates and Meta-programming II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/11.Templates_II.html' style='color: white;'>Templates and Meta-programming II</a> ([PDF](11.Templates_II.pdf) | [Download PDF](11.Templates_II.pdf))"
+          },
+          {
+            "title": "Translation Units I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/12.Translation_Units_I.html' style='color: white;'>Translation Units I</a> ([PDF](12.Translation_Units_I.pdf) | [Download PDF](12.Translation_Units_I.pdf))"
+          },
+          {
+            "title": "Translation Units II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/13.Translation_Units_II.html' style='color: white;'>Translation Units II</a> ([PDF](13.Translation_Units_II.pdf) | [Download PDF](13.Translation_Units_II.pdf))"
+          },
+          {
+            "title": "Code Conventions",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/14.Code_Convention.html' style='color: white;'>Code Conventions</a> ([PDF](14.Code_Convention.pdf) | [Download PDF](14.Code_Convention.pdf))"
+          },
+          {
+            "title": "Debugging and Testing",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/15.Debugging.html' style='color: white;'>Debugging and Testing</a> ([PDF](15.Debugging.pdf) | [Download PDF](15.Debugging.pdf))"
+          },
+          {
+            "title": "Ecosystem",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/16.Ecosystem.html' style='color: white;'>Ecosystem</a> ([PDF](16.Ecosystem.pdf) | [Download PDF](16.Ecosystem.pdf))"
+          },
+          {
+            "title": "Utilities",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/17.Utilities.html' style='color: white;'>Utilities</a> ([PDF](17.Utilities.pdf) | [Download PDF](17.Utilities.pdf))"
+          },
+          {
+            "title": "Containers, Iterators, and Algorithms",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/18.Iterators_Containers_Alg.html' style='color: white;'>Containers, Iterators, and Algorithms</a> ([PDF](18.Iterators_Containers_Alg.pdf) | [Download PDF](18.Iterators_Containers_Alg.pdf))"
+          },
+          {
+            "title": "Advanced Topics I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/19.Advanced_Topics_I.html' style='color: white;'>Advanced Topics I</a> ([PDF](19.Advanced_Topics_I.pdf) | [Download PDF](19.Advanced_Topics_I.pdf))"
+          },
+          {
+            "title": "Advanced Topics II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/20.Advanced_Topics_II.html' style='color: white;'>Advanced Topics II</a> ([PDF](20.Advanced_Topics_II.pdf) | [Download PDF](20.Advanced_Topics_II.pdf))"
+          },
+          {
+            "title": "Performance Optimizations I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/21.Optimization_I.html' style='color: white;'>Performance Optimizations I</a> ([PDF](21.Optimization_I.pdf) | [Download PDF](21.Optimization_I.pdf))"
+          },
+          {
+            "title": "Performance Optimizations II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/22.Optimization_II.html' style='color: white;'>Performance Optimizations II</a> ([PDF](22.Optimization_II.pdf) | [Download PDF](22.Optimization_II.pdf))"
+          },
+          {
+            "title": "Performance Optimizations III",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/23.Optimization_III.html' style='color: white;'>Performance Optimizations III</a> ([PDF](23.Optimization_III.pdf) | [Download PDF](23.Optimization_III.pdf))"
+          },
+          {
+            "title": "Software Design I",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/24.Software_Design_I.html' style='color: white;' download>Software Design I  </a> ([PDF](24.Software_Design_I.pdf) | [Download PDF](24.Software_Design_I.pdf))"
+          },
+          {
+            "title": "Software Design II",
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/25.Software_Design_II.html' style='color: white;'>Software Design II</a> ([PDF](25.Software_Design_II.pdf))"
+          }
+        ]
+        
+      }   
+    }
+
+  },
+  {
+    "id": 102,
+    "name": "Angular",
+    "author": "Mark Vought",
+    "duration": 28,
+    "type": "Premium",
+    "price": 129.0,
+    "ratings": 4.5,
+    "image": "assets/images/angular).jpeg",
+    "description": "In this course you will learn the fundamentals of Angular framework.This course is purely designed"
+  },
+  {
+    "id": 108,
+    "name": "Python",
+    "author": "Python community",
+    "duration": 18.5,
+    "type": "Free",
+    "price": 0.0,
+    "ratings": 4.0,
+    "image": "assets/images/3d-python-programming-language-logo-free-png.webp",
+    "description": "In this course you will learn the fundamentals and advance concepts of React. This course is purely designed",
+    "lessons": {
+      "day_2": {
+        "sections": [
+          {
+            "title": "Learn String Manipulation by Building a Cipher",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-string-manipulation-by-building-a-cipher' style='color: white; text-decoration: none;'>Learn String Manipulation by Building a Cipher</a>"
+          },
+          {
+            "title": "Learn How to Work with Numbers and Strings by Implementing the Luhn Algorithm",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-how-to-work-with-numbers-and-strings-by-implementing-the-luhn-algorithm' style='color: white; text-decoration: none;'>Learn How to Work with Numbers and Strings by Implementing the Luhn Algorithm</a>"
+          },
+          {
+            "title": "Learn Lambda Functions by Building an Expense Tracker",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-lambda-functions-by-building-an-expense-tracker' style='color: white; text-decoration: none;'>Learn Lambda Functions by Building an Expense Tracker</a>"
+          },
+          {
+            "title": "Learn List Comprehension by Building a Case Converter Program",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-list-comprehension-by-building-a-case-converter-program' style='color: white; text-decoration: none;'>Learn List Comprehension by Building a Case Converter Program</a>"
+          },
+          {
+            "title": "Learn the Bisection Method by Finding the Square Root of a Number",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-the-bisection-method-by-finding-the-square-root-of-a-number' style='color: white; text-decoration: none;'>Learn the Bisection Method by Finding the Square Root of a Number</a>"
+          },
+          {
+            "title": "Learn Regular Expressions by Building a Password Generator",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-regular-expressions-by-building-a-password-generator' style='color: white; text-decoration: none;'>Learn Regular Expressions by Building a Password Generator</a>"
+          },
+          {
+            "title": "Learn Algorithm Design by Building a Shortest Path Algorithm",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-algorithm-design-by-building-a-shortest-path-algorithm' style='color: white; text-decoration: none;'>Learn Algorithm Design by Building a Shortest Path Algorithm</a>"
+          },
+          {
+            "title": "Learn Recursion by Solving the Tower of Hanoi Puzzle",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-recursion-by-solving-the-tower-of-hanoi-puzzle' style='color: white; text-decoration: none;'>Learn Recursion by Solving the Tower of Hanoi Puzzle</a>"
+          },
+          {
+            "title": "Learn Data Structures by Building the Merge Sort Algorithm",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-data-structures-by-building-the-merge-sort-algorithm' style='color: white; text-decoration: none;'>Learn Data Structures by Building the Merge Sort Algorithm</a>"
+          },
+          {
+            "title": "Learn Classes and Objects by Building a Sudoku Solver",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-classes-and-objects-by-building-a-sudoku-solver' style='color: white; text-decoration: none;'>Learn Classes and Objects by Building a Sudoku Solver</a>"
+          },
+          {
+            "title": "Learn Tree Traversal by Building a Binary Search Tree",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-tree-traversal-by-building-a-binary-search-tree' style='color: white; text-decoration: none;'>Learn Tree Traversal by Building a Binary Search Tree</a>"
+          },
+          {
+            "title": "Learn Special Methods by Building a Vector Space",
+            "content": "<a href='https://www.freecodecamp.org/learn/scientific-computing-with-python/#learn-special-methods-by-building-a-vector-space' style='color: white; text-decoration: none;'>Learn Special Methods by Building a Vector Space</a>"
+          }
+               ]
+      }
+    }
+  }
+]

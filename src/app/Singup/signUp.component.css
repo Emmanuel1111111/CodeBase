@@ -1,0 +1,107 @@
+mat-card{
+    display: flex;
+   flex-direction: flex-end;
+   
+    border-radius: 20px;
+    width: 35%;
+   margin-left: 30em;
+   border: solid 1px black;
+  
+   height: 33em;
+  
+   margin-bottom: 10em;
+}
+
+.navbar-brand{
+    padding-left: 20px;
+    color: #ffff;
+   }
+
+   .navbar{
+    background-color: rgb(21, 98, 165);
+    height: 4.9em;
+   }
+
+.container{
+   display: flex;
+   justify-content: flex-end;
+   width:auto;
+  size: 50%;
+  margin-bottom: 10px;
+  
+}
+.email,.date,.name,.password{
+    width: 100%;
+    display: block;
+    min-width: 150px;
+    max-width: 800px;
+    width: 100%;
+}
+.mee{
+    border-bottom-right-radius:6px ;
+    border-top-right-radius:6px ;
+    height:3.1em;
+    width: 4em;
+    color: white;
+    background-color: rgb(0, 127, 239);
+    padding-right:3em;
+    margin-bottom: 2em;
+ 
+}
+h1{
+    font-size:4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 19px;
+    margin-top: 7px;
+   text-align:center;
+  
+}
+h3{
+    font-size: 1.4em;
+    text-align: center;
+
+}
+
+.in{
+    height: 3.1em;
+    border-radius: 0px;
+    border: solid 2px black;
+    width: 20em;
+    margin-left: 36em;
+
+    width: 400px;
+   
+}
+
+
+.new{
+  width: 100%;
+  min-width: 150px;
+  max-width: 800px;
+  display: block;
+    padding-left: 20px;
+}
+
+.title{
+    padding: 3px;
+}
+button{
+    margin-top: 2em;
+}
+.btn{
+    display: grid;
+    height: 3em;
+    
+    min-width: 100px;
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+body{
+    background-image: url('../../assets/photo-1532012197267-da84d127e765.avif');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    height: max-content;
+  
+}

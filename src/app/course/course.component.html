@@ -1,0 +1,30 @@
+<nav class=" navbar  navbar-expand-lg navbar-lg-light" >
+  <input  class="navbar-brand" type="text"  [(ngModel)]="Topic" (keyup.enter)="OnSearch()" placeholder="search courses" matSuffix>
+  <mat-icon >search</mat-icon>
+
+</nav>
+<div class="contain">
+  <div class="span"><img [src]="[value?.image]" /></div>
+</div>
+
+<p></p>
+
+<div class="name">{{ value?.name }}</div>
+<br />
+
+<div *ngIf="value">
+<div *ngFor="let lessons of Info" >
+
+  <mat-card class="Container" >
+    <mat-card-content class="mat-elevation-z12" >
+    
+      <div class="title"  #Containerr> {{lessons.title}}</div>
+      
+   <div class="content" [innerHTML]="getMarked( lessons.content)|safeHtml"   ></div>
+</mat-card-content>
+</mat-card>
+  
+  </div>
+</div>
+<app-navbar></app-navbar>
+

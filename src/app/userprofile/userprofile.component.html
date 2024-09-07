@@ -1,0 +1,57 @@
+
+
+
+    <nav class=" navbar  navbar-expand-lg navbar-lg-light ">
+        <a class="navbar-brand" routerLink="#"> Home</a>
+        <a  class="navbar-brand" routerLink="/home">Learn</a>
+        <a  class="navbar-brand" routerLink="course">Certification</a>
+        <a class="navbar-brand" routerLink="#">Jobs</a>
+    
+        
+        <input class= "in" matInput  (keyup.enter)="Search()"  [(ngModel)]="Name"
+        placeholder="Search courses..." >
+      
+      <button   class="mee" matSuffix    (click)="Search()"   class="button" matSuffix >
+        <mat-icon >search</mat-icon>
+   
+      </button>
+    
+    
+      </nav> 
+      <app-navbar>
+           
+<div class="container" >
+    <mat-card >
+        <mat-card-content  class="mat-elevation-z12">
+          <div class="flip">
+            <div matCardAvatar class="avatar"></div>
+          <div class=" tg" >  
+             <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Hello!</h2>
+           
+             <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">{{Profile.username}}</h3> 
+             <h3> {{Profile.email}}</h3>
+            
+            
+            
+        </div>
+       
+        </div>
+        <div class="additional"> What would you Like to learn? <button routerLink="/home" class= "btn btn-primary" style="margin-left: 4px;"> Learn?</button></div>
+        
+        </mat-card-content>
+    </mat-card>
+  
+    </div>
+    <div class="idea">
+    <ng-container *ngFor="let index of value |slice: 0:6">
+      <div class="img" >
+        <img [src]="index.image"  [routerLink]="['/course', index.id]"/>
+      </div>
+
+    </ng-container>
+
+    </div>
+     
+ 
+</app-navbar >
+

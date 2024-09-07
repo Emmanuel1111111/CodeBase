@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="mn">
+    <head></head>
+<body class="gradient" >
+
+  <app-navbar>
+    <div class="title">Popular Available Courses</div>
+    <div class="container">
+      <ng-container *ngFor="let info of Info">
+        <div class="sec-1">
+          <figure class="sec1">
+            <img [src]="[info.image]" />
+          </figure>
+          <div>
+            <h2>{{ info.name }}</h2>
+          </div>
+          <div>
+            <p>{{ info.description }}</p>
+          </div>
+         <br>
+          <div class="flex">
+            <button class="btn btn-primary" [routerLink]="['/course', info.id]"  >  Enroll Now For Free</button>
+            
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </app-navbar>
+</body>
+</html>

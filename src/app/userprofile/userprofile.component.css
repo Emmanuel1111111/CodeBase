@@ -1,0 +1,112 @@
+
+.course{
+   border: solid 1px  black ;
+    margin-top: 2em;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-left:8px ;
+    padding: 0.2em;
+
+}
+
+
+
+
+.idea{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  gap:50px;
+  margin: 3em;
+  justify-content: center;
+  width: auto;
+  margin-top: 8em;
+
+}
+
+.img:hover{
+  box-shadow:0px 4px 2px 3px;
+  transition: box-shadow ease-in-out 0.3s;
+  padding: 10px;
+}
+
+
+.in {
+  height: 3.1em;
+  border-radius: 6px;
+  border: solid 2px black;
+  width: 20em;
+  margin-left: 36em;
+
+  width: 400px;
+}
+
+.container {
+  
+  display: flex;
+  height: auto;
+  margin-right: 33.5em;
+}
+
+mat-card {
+   
+  width: 40%;
+  height: max-content;
+  margin-right: 29em;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  color: #ffff;
+}
+.avatar{
+    background-color:greenyellow;
+  height: 5em;
+  width: 5em;
+
+}
+
+.navbar {
+  background-color: rgb(21, 98, 165);
+  height: 4.9em;
+}
+.tg{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 0px;
+}
+
+.flip{
+    display: flex;
+    
+    padding: 5px;
+    margin: 4px;
+   
+}
+.button{
+    height:3em;
+    padding: 5px;
+    width:3em;
+    
+    background-color: rgb(52, 143, 223);
+    color: #ffff;
+}
+
+.btn:hover{
+  background-color: aqua;
+}
+
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+.additional{
+  border: solid 3px  dashed black ;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}

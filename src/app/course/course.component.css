@@ -1,0 +1,81 @@
+.contain{
+    display:grid;
+   justify-content: center;
+   grid-template-rows: auto auto ;
+   
+  gap:5px;
+      
+}
+.text{
+    text-align: center;
+    font-size: larger;
+    
+}
+
+.container{
+    display:grid;
+    grid-template-rows: auto auto;
+}
+.name{
+    font-size: x-large;
+    text-align: center;
+}
+
+img{
+    height: 25em;
+    width:40em
+}
+.span{
+   margin-top: 7em;
+border-radius: 4px;
+box-shadow: 0px 1px 4px 0px ;
+}
+
+mat-card{
+    box-shadow: 0px 0px 0px 0px ;
+   border: solid 1px black;
+   border-radius: 4px;
+   margin-bottom: 2em;
+   color: white;
+   background: linear-gradient(45deg,  #0000ff, #ff0000);
+
+  
+   font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+mat-card:hover{
+    box-shadow: 0px 3px 50px 0px;
+    transition: box-shadow ease-in-out 0.2s rgb(47, 135, 212);
+}
+.title{
+    font-size: x-large;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin-bottom: 0.4em; 
+    margin-bottom: 1em;
+
+}
+.content{
+    font-size: large;
+    text-align: center;
+    margin-left: 5em;
+    padding: 4px;
+    margin-right: 9px
+}
+a{
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+}
+.nav-bar{
+    margin-left: 3em;
+
+}
+input{
+    margin-left: 60em;
+}
+mat-icon{
+    color:white;
+}

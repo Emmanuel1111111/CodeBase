@@ -1,0 +1,27 @@
+
+<mat-sidenav-container class="sidenav-container"  >
+    <mat-sidenav #sidenav mode="side" class="sidenav" [fixedInViewport]="true">
+     
+      <mat-nav-list class=" color">
+        <a mat-list-item href="#" (click)="clear()" >LogOut</a>
+        <a mat-list-item [routerLink]="['/userprofile', id]"  matSuffix>Profile
+        <mat-icon></mat-icon></a>
+       
+        <a mat-list-item routerLink="userprofile/:id" matSuffix> Settings
+          <mat-icon></mat-icon>
+          </a>
+        <a mat-list-item href="home">courses</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    
+  
+      <mat-toolbar>
+        <button mat-icon-button (click)="sidenav.toggle()" style="margin-bottom: 1em;" class="new">
+          <mat-icon style="color: white;"  matbadge>menu</mat-icon>
+       
+        </button>
+     
+      </mat-toolbar>
+      <ng-content></ng-content>
+   
+  </mat-sidenav-container>
