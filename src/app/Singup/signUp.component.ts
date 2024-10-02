@@ -22,88 +22,87 @@ export class LoginComponent {
     DOB: ['', Validators.required],
   });
 
-  singIn=this.formbuilder.group({
-    username:['', [Validators.required]],
-    password:['', 
-      [Validators.required, Validators.minLength(10), Validators.maxLength(20)] ]
-
-  })
+  singIn = this.formbuilder.group({
+    username: ['', [Validators.required]],
+    password: [
+      '',
+      [Validators.required, Validators.minLength(10), Validators.maxLength(20)],
+    ],
+  });
   router = inject(Router);
   Name = '';
   errorMessage: any;
   err: any;
 
- SignUp(){
-if(this.profile.valid){
+  async signUpWithGoogle(){
+await this.Data.signUp()
+  }
 
-  this.Data.SignUp(this.profile.value).subscribe({
-     next:(data)=>{
-       const Id= data.id
-       const token= data.authToken
-       localStorage.setItem('id', Id)
-       localStorage.setItem('authToken', token)
-       this.router.navigate(['userprofile', Id])
-     }, 
+  SignUp() {
+    if (this.profile.valid) {
+      this.Data.SignUp(this.profile.value).subscribe({
+        next: (data) => {
+          const Id = data.id;
+          const token = data.authToken;
+          localStorage.setItem('id', Id);
+          localStorage.setItem('authToken', token);
+          this.router.navigate(['userprofile', Id]);
+          this.profile.reset()
+        },
 
-     error: (err)=>{
-      this.err= "Username already in use"
-     }
-  })
-}else{
-
-}
- 
- }
+        error: (err) => {
+          this.err = 'Email is already in use';
+        },
+      });
+    } else {
+    }
+  }
 
   Login() {
-    
-  
-  this.Data.Login(this.singIn.value).subscribe({
-    next: (data) => {
-      const token = data.authToken;
-      if (token) {
-        const Id = data.id;
-        localStorage.setItem('authToken',token)
-        localStorage.setItem('id',Id)
-        this.router.navigate(['userprofile', Id]);
-        console.log(token);
-      } else {
-        this.router.navigate(['login']);
-      }
-    },
-    error: (error) => {
-      console.error(error);
-      this.errorMessage = 'Invalid Username or password';
-    },
-  });
-}
+    this.Data.Login(this.singIn.value).subscribe({
+      next: (data) => {
+        const token = data.authToken;
+        if (token) {
+          const Id = data.id;
+          localStorage.setItem('authToken', token);
+          localStorage.setItem('id', Id);
+          this.router.navigate(['userprofile', Id]);
+          console.log(token);
+          this.singIn.reset()
+        } else {
+          this.router.navigate(['login']);
+        }
+      },
+      error: (error) => {
+        console.error(error);
+        this.errorMessage = 'Invalid Username or password';
+      },
+    });
+  }
 
- 
-Search() {
-  if(this.profile.valid){
-  this.service.Func().subscribe({
-    next: (data) => {
+  Search() {
+    if (this.profile.valid) {
+      this.service.Func().subscribe({
+        next: (data) => {
+          const name = data.find((x: any) => x.name === this.Name);
+          if (!name) {
+            this.router.navigate(['error-comp']);
+          } else {
+            this.router.navigate(['course/:id', name]);
+          }
+        },
 
-      const name = data.find((x: any) => x.name === this.Name);
-      if(!name){
-        this.router.navigate(['error-comp'])
+        error: (error) => {
+          this.err = `${'Course not found'} ${error}`;
+          this.router.navigate(['error-comp']);
+        },
+      });
+    } else {
+      this.profile.markAllAsTouched();
+    }
+  }
 
-      }else{
-      this.router.navigate(['course/:id', name]);
-      }
-  },
 
-
-    error: (error) => {
-      this.err = `${'Course not found'} ${error}`;
-      this.router.navigate(['error-comp']);
-    },
-  });
-}else{
-  this.profile.markAllAsTouched()
-}
-
-}
 
   constructor(
     private formbuilder: FormBuilder,

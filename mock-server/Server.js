@@ -1,18 +1,16 @@
 const express = require('express');
-const cors = require('cors'); // Import the cors middleware
+const cors = require('cors'); 
 const fs = require('fs');
 const path = require('path');
 const bodyParser = require('body-parser');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
-
 const app = express();
 const PORT = 3000;
-const SECRET_KEY = 'your_secret_key'; // Change this to a more secure key in production
+const SECRET_KEY = 'your_secret_key'; 
 const clientDetailsFilePath = path.join(__dirname, 'client.json');
 const coursesFilePath = path.join(__dirname, 'courses.json');
 
-// Enable CORS
 app.use(cors());
 
 app.use(bodyParser.json());

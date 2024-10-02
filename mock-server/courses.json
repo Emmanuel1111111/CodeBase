@@ -526,7 +526,7 @@
         "sections":[
           {
             "title": "Introduction",
-            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/01.Introduction.html' style='color: white;'>Introduction</a> ([PDF](01.Introduction.pdf) | [Download PDF](01.Introduction.pdf))"
+            "content": "<a href='https://federico-busato.github.io/Modern-CPP-Programming/htmls/01.Introduction.html' style='color: white;' type='pdf'>Introduction</a> ([PDF](01.Introduction.pdf) | [Download PDF](01.Introduction.pdf))"
           },
           {
             "title": "Preparation",

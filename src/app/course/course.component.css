@@ -79,3 +79,13 @@ input{
 mat-icon{
     color:white;
 }
+.blur-background{
+    filter: blur(4px);
+}
+
+
+.highlight {
+    background-color: yellow;
+    border: 2px solid #ffc107;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+  }

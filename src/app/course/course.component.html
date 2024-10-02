@@ -1,5 +1,5 @@
 <nav class=" navbar  navbar-expand-lg navbar-lg-light" >
-  <input  class="navbar-brand" type="text"  [(ngModel)]="Topic" (keyup.enter)="OnSearch()" placeholder="search courses" matSuffix>
+  <input  class="navbar-brand" type="text"  [(ngModel)]="searchTerm" (input)="OnSearch()" placeholder="search courses" matSuffix>
   <mat-icon >search</mat-icon>
 
 </nav>
@@ -13,7 +13,7 @@
 <br />
 
 <div *ngIf="value">
-<div *ngFor="let lessons of Info" >
+<div *ngFor="let lessons of Info    let i = index" [id]="'section-' + i  "  [ngClass]="{'highlight': Filter.includes(section)}">
 
   <mat-card class="Container" >
     <mat-card-content class="mat-elevation-z12" >

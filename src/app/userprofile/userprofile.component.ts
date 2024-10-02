@@ -21,7 +21,7 @@ pic:any
 sanitizer=inject(DomSanitizer)
   ngOnInit(): void {
  this.route.paramMap.subscribe((data)=> this.Data=data.get('id'));
- 
+
  this.Service.Profile(this.Data).subscribe({
 
 next:(data)=>{
@@ -41,13 +41,7 @@ next:(data)=>{
   }
  })
  
-   
-    
-
-
- 
-  
-  console.log(this.Profile);
+ console.log(this.Profile);
   console.log(this.Data)
  
  
@@ -59,7 +53,7 @@ next:(data)=>{
   Search(){
     this.courses.data().subscribe({
    next:(data)=>{
-   const Id=data.find((x:any)=>x.name===this.Name)
+   const Id=data.find((x:any)=>x.name===this.Name )
    if(!Id){
     this.router.navigate(['error-comp'])
    }else{

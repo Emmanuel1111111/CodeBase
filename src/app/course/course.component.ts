@@ -9,6 +9,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ViewChild,ElementRef } from '@angular/core';
 import { ReturnStatement } from '@angular/compiler';
 import { log } from '@tensorflow/tfjs';
+import { LowerCasePipe } from '@angular/common';
 
 
 
@@ -26,10 +27,12 @@ export class CourseComponent implements OnInit {
   coursename: any
   name!:'SafeHtml'
   contain:any
-Topic=""
-Filter=[]
+  searchTerm: string = '';
+  
+  Filter: any[] = [];
 
 @ViewChild('Containerr') Containerr!:ElementRef
+section: any;
  
 
   ngOnInit():void{
@@ -56,30 +59,38 @@ Filter=[]
    
   }
 
-
   OnSearch() {
-    this.contain = this.Containerr.nativeElement
+    // Trigger search after 3 characters
+    if (this.searchTerm.length < 2) {
+      this.Filter = [];
+      return;
+    }
+
+    const lowerCaseTopic = this.searchTerm.toLowerCase();
+
   
-    this.Filter = this.content.filter((item: any) => {
-      if (typeof item === 'object' && item.title) {
-        return item.content.includes(this.Topic);
-      } else if (typeof item === 'string') {
-        return item.includes(this.Topic);
-      } else {
-        return false;
+    this.Filter = this.content.filter((section: any) => {
+      if (typeof section === 'object' && section.title) {
+        return section.content.toLowerCase().includes(lowerCaseTopic);
       }
+      return false;
     });
-    
-    if (this.Filter.length==0){
-    return this.scrollToTop();
+
+    // Scroll to the first matched section if any
+    if (this.Filter.length > 0) {
+      const matchedIndex = this.content.findIndex((section: any) => {
+        return section.content.toLowerCase().includes(lowerCaseTopic);
+      });
+
+      if (matchedIndex !== -1) {
+        const element = document.getElementById('section-' + matchedIndex);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    }
   }
-}
-  scrollToTop(){
-    
-    
-    this.Containerr.nativeElement.scrollIntoView({behavior:'smooth'})
-  }
- 
+
 
   getMarked(content: any): any{
     return marked(content);

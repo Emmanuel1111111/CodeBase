@@ -1,37 +1,3 @@
 [
-  {
-    "id": 1,
-    "username": "Emmanuel Asante",
-    "password": "$2a$08$c1U/0pRGmzhDJU1IMDxsMuxJLwUSORiysFEMJmYjBhGj4ZOw4FHmG"
-  },
-  {
-    "id": 2,
-    "username": "Caleb",
-    "password": "$2a$08$dzllQW.IN9iPoncWL5pjxeR.MaFxw53YjAg8e3jbap0Zfvf8GBswW"
-  },
-  {
-    "id": 3,
-    "username": "Benjamin Asante",
-    "password": "$2a$08$1rA/DNFi06bppQwqohMwEeacZkM7XuB2mcIKzJYXO2scd8gk5TaUi"
-  },
-  {
-    "id": 4,
-    "username": "BSJBCSJLBV",
-    "password": "$2a$08$iZSNBFZxftQybGJ2G62LJ.fS90dlzJvz3frgccar1KwJrliqkia1q"
-  },
-  {
-    "id": 5,
-    "username": "Emmaneul Asante",
-    "password": "$2a$08$kA9S9C2vA3zGaF/23WYWBO1pKsW4hk9tLOJnz9SnCU8f2E.t1u6SO"
-  },
-  {
-    "id": 6,
-    "username": "Prince Ayiku",
-    "password": "$2a$08$fygaw2dQWR40irwmQPoXj.1VdDCu2T.OC.bDPv4OB6LIEAYqBDroq"
-  },
-  {
-    "id": 7,
-    "username": "Kwame Asante",
-    "password": "$2a$08$pPFcS4p.C1.AqlJIuwLNBOB0.AYAxWFkugz5zFuP7PaWwSVBQyLNK"
-  }
+ 
 ]
