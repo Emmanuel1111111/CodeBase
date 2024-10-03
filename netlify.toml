@@ -1,5 +1,5 @@
 [build]
-  publish = "dist/Hotel/browser"  # Adjust the path if your project name is different
+  publish = "dist/Hotel"  # Adjust the path if your project name is different
   command = "ng build --configuration production"
 
 
