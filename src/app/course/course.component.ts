@@ -4,11 +4,11 @@ import { DeptService } from '../dept.service';
 import { CourseData } from '../Courses';
 import { Observable, Subject, Subscription, filter, map, of } from 'rxjs';
 import { find } from 'rxjs';
-import { block, marked } from 'marked';
+import { marked } from 'marked';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { ViewChild,ElementRef } from '@angular/core';
 import { ReturnStatement } from '@angular/compiler';
-import { log } from '@tensorflow/tfjs';
+
 import { LowerCasePipe } from '@angular/common';
 
 
