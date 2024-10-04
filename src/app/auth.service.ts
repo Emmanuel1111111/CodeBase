@@ -43,26 +43,6 @@ Profile(id:number):Observable<any>{
 
   constructor(private http:HttpClient) {
 
-this.supaClient= createClient(
-  Env.supabaseurl,
-  Env.supabaseKey
-)
-
-this.supaClient.auth.onAuthStateChange((event, session)=>{
-localStorage.setItem('session', JSON.stringify(session?.user))
-console.log(session, event)
-
-if(session?.user){
-  this.http.get(`${this.url}/users/`)
- this.router.navigate(['/userprofile', session.user.id])
-
-
-}
-
-
-
-
-})
    }
 
    async signUp(){
