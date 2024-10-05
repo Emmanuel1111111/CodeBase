@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html class="mn">
-    <head></head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    </head>
 <body >
       
 <nav class=" navbar  navbar-expand-lg navbar-lg-light ">
+    <div class="container-fluid">
     <a class="navbar-brand" routerLink=""> Home</a>
     <a  class="navbar-brand" routerLink="/course/:id">About</a>
     <a  class="navbar-brand" routerLink=''>Contact</a>
     <a class="navbar-brand" routerLink="course">Courses</a>
-
+</div>
     
     <input class= "in" matInput  type="text" [(ngModel)]="Name"
     placeholder="Search courses..." >
@@ -34,7 +38,7 @@
         <mat-tab-group>
             <mat-tab label="SignUp">
                 <mat-card-content>
-                    <form [formGroup]="profile" >
+                    <form [formGroup]="profile" class= "d-flex ms-auto">
                         <mat-form-field class="name">
                             <mat-label>UserName</mat-label>
                             <input matInput  formControlName="username" placeholder="fullname"> 
